@@ -1,0 +1,36 @@
+﻿body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#container {
+    border: solid 1px black;
+}
+
+.box {
+    border: solid 1px black;
+    background-color: lightgrey;
+    height: 100px;
+    width: 100px;
+    float: left;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 48px;
+    line-height: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    color: lightgrey;
+    user-select: none;
+    transition: color ease 1s;
+}
+
+.box:hover {
+    opacity: 0.75;
+}
+
+.open {
+    color: black;
+    transition: color ease 1s;
+}
